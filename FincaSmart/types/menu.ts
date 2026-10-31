@@ -1,4 +1,3 @@
-// Tipos compartidos del menú. Se declaran una sola vez y se importan donde se necesiten.
 
 export type Categoria = 'bebida' | 'comida' | 'postre';
 

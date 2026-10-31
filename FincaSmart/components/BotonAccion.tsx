@@ -6,11 +6,11 @@ export type Tamano = 'pequeno' | 'mediano' | 'grande';
 type BotonAccionProps = {
   texto: string;
   alPresionar: () => void;
-  apariencia?: Apariencia; // por defecto 'principal'
-  tamano?: Tamano; // por defecto 'mediano'
-  anchoCompleto?: boolean; // por defecto solo ocupa su contenido
-  inhabilitado?: boolean; // por defecto false
-  enProceso?: boolean; // por defecto false
+  apariencia?: Apariencia; 
+  tamano?: Tamano; 
+  anchoCompleto?: boolean; 
+  inhabilitado?: boolean; 
+  enProceso?: boolean; 
 };
 
 const COLOR_INDICADOR: Record<Apariencia, string> = {
